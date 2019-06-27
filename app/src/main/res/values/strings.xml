@@ -3,4 +3,10 @@
     <string name="i_m_a_student">I\'m a student</string>
     <string name="i_m_a_teacher">I\'m a teacher</string>
     <string name="take_a_tour">Take a tour</string>
+    <string name="start_here">Start here</string>
+    <string name="welcome_back_nstart_learn_again">Welcome Back  Start learn Again</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="or">OR</string>
+    <string name="can_we_start_nlearning">Can we Start  learning</string>
 </resources>
