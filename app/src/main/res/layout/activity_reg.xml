@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/colorPrimary"
+    android:background="@color/colorPrimaryDark"
     android:layout_gravity="center"
     android:gravity="center"
     tools:context=".LogActivity">
@@ -65,6 +65,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/name_text_input"
         style="@style/TextInputLayout"
+        android:textColorHint="@color/colorWhite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Your Name"
@@ -84,6 +85,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/email"
+        android:textColorHint="@color/colorWhite"
         app:errorEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -100,6 +102,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
+        android:textColorHint="@color/colorWhite"
         app:errorEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -115,7 +118,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:background="@drawable/transparent_bg_bordered_button"
+        android:background="@drawable/transparenttwo"
         android:padding="8dp"
         android:text="Enroll me"
         android:textStyle="bold"
